@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    /* Adicionei para garantir que o conteúdo principal não fique atrás do rodapé fixo */
+    padding-bottom: 80px;
+    /* Ajuste este valor se o rodapé ficar menor/maior que o esperado */
+}
+
+header {
+    background-color: #2c3e50;
+    color: rgb(247, 244, 244);
+    padding: 20px 40px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Montserrat';
+}
+
+.banner-cab img {
+    width: 120px;
+    height: auto;
+}
+
+.menu {
+    background-color: #34495e;
+    border-radius: 8px;
+    font-size: 1.1rem;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #1abc9c;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    color: #000;
+    list-style: none;
+}
+
+main {
+    /*meio*/
+    background-color: #ced6f6;
+    padding: 30px;
+    display: flex;
+}
+
+.content-mainmeiota{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    margin: 10px;
+    /*meio do meio*/
+    width: 40%;
+    padding: 10px;
+    background-color: white;
+    min-height: 200px;
+    min-width: 150px;
+    border-radius: 50px;
+    word-break: break-all;
+}
+
+.content-leftjk{
+    border: 1px solid rgb(0, 0, 5);
+    margin-top: 30px;
+    width: 40%;
+    background-color: rgb(65, 133, 235);
+    min-width: 100px;
+    border-radius: 50px;
+    word-break: break-all;
+}
+
+.va {
+    width: 20%;
+    background-color: #ced6f6;
+    padding: 15px 0 15px 0;
+    min-width: 150px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.fc {
+    border: 1px solid rgb(0, 0, 5);
+    padding: 10px;
+    margin: 10px 10px 10px 5px;
+    width: 90%;
+    background-color: rgba(70, 123, 238, 0.932);
+    min-height: 200px;
+    min-width: 250px;
+    border-radius: 50px;
+    word-break: break-all;
+    hyphens: auto;
+}
+
+
+.banner-cab {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* --- INÍCIO DAS MODIFICAÇÕES DO RODAPÉ --- */
+footer {
+    /*rodape*/
+    background-color: #2c3e50;
+    ;
+    padding: 5px 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: white;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.footer-table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #4c6eb8;
+    text-align: center;
+}
+
+.footer-table th,
+.footer-table td {
+    border: 1px solid white;
+    padding: 4px 6px;
+    width: 33.33%;
+    box-sizing: border-box;
+    font-size: 0.75rem;
+    vertical-align: middle;
+}
+
+.footer-table th {
+    background-color: #3d82e9c7;
+    font-weight: bold;
+}
+
+.ts {
+    color: #000000;
+    background-color: #3838ff;
+    padding: 3px 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+footer {
+    background-color: #2c3e50;
+    padding: 20px 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+footer h4 {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.rodape-cima {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.meio {
+    border: 1px solid black;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.rodape-baixo {
+    background-color: #4070b9c7;
+    color: #293c57c7;
+    margin-top: 20px;
+}
+
+.rodape-titulo {
+    font-family: 'Montserrat';
+    color: #092642;
+    display: flex;
+}
+
+.title {
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    font-family: 'roboto';
+    color: #4070b9c7;
+}
+
+/* --- FIM DAS MODIFICAÇÕES DO RODAPÉ --- */
